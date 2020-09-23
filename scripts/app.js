@@ -14,7 +14,7 @@ function smoothScroll(target, duration) {
     function animation(currentTime) {
         if(startTime === null) startTime = currentTime;
         let timeElapsed = currentTime - startTime;
-        console.log(timeElapsed, startPosition, distance, duration);
+     
         const run = easeOutSine(timeElapsed, startPosition, distance, duration);
         window.scrollTo(0, run);
 
@@ -60,3 +60,13 @@ const navSlide = () => {
 }
 
 navSlide();
+
+// scroll to element - smooth scroll library
+
+const scroll = new SmoothScroll('.intro-nav a[href*="#"]', {
+    speed: 800,
+    speedAsDuration: true
+});
+
+    
+

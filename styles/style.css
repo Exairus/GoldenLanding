@@ -849,6 +849,10 @@ section {
     transform: translateX(0%);
 }
 
+.intro-nav-active .nav-link:hover {
+    color: #e62a49;
+}
+
 @keyframes navLinkFade {
     from {
         opacity: 0;
@@ -871,4 +875,5 @@ section {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
 

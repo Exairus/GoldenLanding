@@ -11,16 +11,16 @@
 
     <!-- intro -->
 
-    <div class="intro">
+    <div class="intro" id="home">
         <div class="container">
-            <div class="intro-header">
+            <div id="intro-header" class="intro-header">
                 <div class="header-logo"><img src="imgs/intro/logo.png" alt=""></div>
                 <nav class="intro-nav">
-                    <li><a class="nav-link" href="#">Home</a></li>
-                    <li><a class="nav-link" href="#">Services</a></li>
-                    <li><a class="nav-link" href="#">Portfolio</a></li>
-                    <li><a class="nav-link" href="#">About</a></li>
-                    <li><a class="nav-link" href="#">Contact</a></li>
+                    <li><a class="nav-link" href="#home" data-scroll>Home</a></li>
+                    <li><a class="nav-link" href="#services" data-scroll>Services</a></li>
+                    <li><a class="nav-link" href="#portfolio" data-scroll>Portfolio</a></li>
+                    <li><a class="nav-link" href="#about" data-scroll>About</a></li>
+                    <li><a class="nav-link" href="#contact" data-scroll>Contact</a></li>
                 </nav>
                 <div class="burger">
                     <div class="line1"></div>
@@ -42,7 +42,7 @@
 
     <!-- Services -->
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="section-header">
                 <h1 class="section-title">Services</h1>
@@ -78,7 +78,7 @@
 
     <!-- portfolio -->
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="section-header">
                 <h1 class="section-title">Our portfolio</h1>
@@ -137,7 +137,7 @@
     </section>
 
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="section-header">
                 <h1 class="section-title">About</h1>
@@ -280,7 +280,7 @@
 
     <!-- contact -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-bgMap">
             <img src="imgs/contact/map.png" alt="">
         </div>
@@ -330,7 +330,7 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 </html>
